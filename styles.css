@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url('your-map-image-url.jpg'); /* Arka plan resmi */
+    background-image: url('C:\\Users\\90533\\Desktop\\bitirme\\BitirmeWeb\\Cmpe491WebPage\\aa.jpeg'); /* Arka plan resmi */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Sayfa kaydırılırken arka planın sabit kalmasını sağlar */
@@ -58,7 +58,7 @@ section {
 }
 
 footer {
-    text-align: center;
+    text-align: bottom;
     padding: 10px;
     background-color: #333;
     color: #fff;
