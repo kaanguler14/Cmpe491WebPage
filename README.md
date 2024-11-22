@@ -1,4 +1,4 @@
-# Official website of the 3D-EcoMap project
+# 3D-EcoMap 
 In today’s rapidly urbanizing world, optimizing travel routes is critical not only for cost savings but
 also for reducing environmental impact. As the number of vehicles on the road continues to increase,
 the urgency to reduce fuel consumption and emissions also increases. However, traditional navigation
