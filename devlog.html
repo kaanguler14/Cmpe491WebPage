@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devlog - 3D-EcoMap Senior Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        /* Ana sayfaya dönme sembolü */
+        .back-home {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: transparent;
+            border: none;
+            font-size: 1.5em;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .back-home:hover {
+            color: #4CAF50; /* Hover efektiyle renk değişimi */
+        }
+
+        .devlog-entry {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .devlog-entry h3 {
+            color: #333;
+        }
+
+        .devlog-entry p {
+            color: #555;
+        }
+
+        .devlog-entry ul {
+            margin-top: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .devlog-entry img {
+            max-width: 600px;  /* Resmin maksimum genişliği 600px olacak */
+            height: auto;  /* Yükseklik, genişliğe göre orantılı olacak */
+            display: block;  /* Resmi blok eleman olarak yerleştir */
+            margin: 15px auto;  /* Resmi ortalamak için margin */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Devlog - 3D-EcoMap Senior Project</h1>
+    </header>
+
+    <!-- Ana sayfaya dönme sembolü -->
+    <button class="back-home" onclick="window.location.href='index.html'">&#x1F3E0;</button>
+
+    <main>
+        <section class="devlog-entry">
+            <h3>December 5, 2024 </h3>
+            <p>Depth map from satellite imagery</p>
+            <ul>
+                <img src="images/firstDM.jpeg" alt="Initial Development">
+                <li>We used U-Net to extract the depth of the image.</li>
+                <li>As you can see, some places aren't extracted in terms of depth.</li>
+            </ul>
+            <h2>Future Works</h2>
+            <ul>
+                <li>We can use a better algorithm to extract the depth of the whole image.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CMPE491 Senior Project Team - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
